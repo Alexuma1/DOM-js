@@ -31,7 +31,7 @@ img {
 .header {
   position: sticky;
   top: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: var(--main-color);
   color: var(--second-color);
   width: var (--container-width);
@@ -41,7 +41,7 @@ img {
 .header h1 {
   margin: 0 auto;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .section {
   padding: 2rem;
@@ -112,6 +112,7 @@ img {
   display: flex;
   min-height: 50vh;
   background-color: var(--second-color);
+  border: 1px solid var(--main-color);
 }
 .ball {
   margin: auto;
