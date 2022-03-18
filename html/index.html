@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-dark lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu Emergente</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
-  <link rel="stylesheet" href="../css/menuEmergente.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
-<body>
+<body data-dark>
   <header class="header">
-    <h1>Ejercicios del DOM - Menu Hamburguesas</h1>
+    <button class="dark-btn">🌙</button>
+    <h1>Bienvenidos</h1>
   </header>
   <button class="panel-btn hamburger hamburger--vortex" type="button">
     <span class="hamburger-box">
@@ -22,7 +23,7 @@
   </button>
   <aside class="panel">
     <nav class="menu">
-      <a href="#seccion1">Reloj Digital y Alarma Sonora</a>
+      <a data-dark href="#seccion1">Reloj Digital y Alarma Sonora</a>
       <a href="#seccion2">Eventos del teclado</a>
       <a href="#seccion3">Cuenta Regresiva</a>
       <a href="#seccion4">seccion 4</a>
@@ -31,7 +32,7 @@
   </aside>
   <main>
     <section class="section" id="seccion1">
-      <h2>Reloj Digital y Alarma Sonora</h2>
+      <h2 data-dark>Reloj Digital y Alarma Sonora</h2>
       <div id="reloj"></div>
       <div>
         <button id="activar-reloj">Iniciar Reloj</button>
@@ -42,8 +43,8 @@
     </section>
     <section class="section" id="seccion2">
       <h2>Eventos del Teclado</h2>
-      <article class="stage">
-        <div class="ball"></div>
+      <article data-dark class="stage">
+        <div data-dark class="ball"></div>
       </article>
     </section>
     <section class="section" id="seccion3">
