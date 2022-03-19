@@ -15,7 +15,6 @@ export default function darkTheme(btn, classDark) {
     $selectors.forEach((el) => el.classList.add(classDark));
     $themeBtn.textContent = sun;
     ls.setItem("theme", "dark");
-    console.log(ls.getItem("theme"));
   };
 
   d.addEventListener("click", (e) => {
@@ -28,7 +27,6 @@ export default function darkTheme(btn, classDark) {
     }
   });
   d.addEventListener("DOMContentLoaded", (e) => {
-    console.log(ls.getItem("theme"));
     if (ls.getItem("theme") === null) ls.setItem("theme", "light");
     if (ls.getItem("theme") === "light") lightMode();
     if (ls.getItem("theme") === "dark") darkMode();
